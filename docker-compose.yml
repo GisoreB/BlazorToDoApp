@@ -1,0 +1,6 @@
+﻿services:
+  blazortodoapp:
+    image: blazortodoapp
+    build:
+      context: .
+      dockerfile: Dockerfile
